@@ -44,9 +44,12 @@ Archive: This subfolder within each project folder is for storing archived or ol
 ## File Naming Convention
 When saving your GPX files, use a consistent naming convention that includes relevant information. For example:
 
-Flight: Flight_SourceCity_to_DestinationCity.gpx
+Flight: 
+```
+Flight_SourceCity_to_DestinationCity.gpx
 Car Track: Car_SourceCity_to_DestinationCity.gpx
 Bike Track: Bike_SourceCity_to_DestinationCity.gpx
+```
 
 Multiple GPX files with same source and destination:
 Car_SourceCity_to_DestinationCity_1.gpx
