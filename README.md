@@ -1,7 +1,8 @@
 # gpx-tracks
 repository of my exploration
 
-Folder structure:
+## Folder structure:
+
 ```
 GPX Tracks
 │
@@ -32,7 +33,7 @@ GPX Tracks
         └── ...
 ```
 
-Explanation of the structure:
+## Explanation of the structure:
 
 GPX Tracks: This is the main folder that contains all your organized GPX data.
 Mazury 2023 and Majorka 2023: These are the project-specific subfolders where you store tracks related to each project.
@@ -40,9 +41,7 @@ Single Tracks: Inside each project folder, you have a subfolder where you store 
 Joined Tracks: Within each project folder, there's a subfolder where you can save the joined GPX tracks for that project. This could be a combination of all the single tracks for that project.
 Archive: This subfolder within each project folder is for storing archived or older GPX tracks that you might not need to access frequently but want to keep for reference.
 
-
-
-File Naming Convention
+## File Naming Convention
 When saving your GPX files, use a consistent naming convention that includes relevant information. For example:
 
 Flight: Flight_SourceCity_to_DestinationCity.gpx
