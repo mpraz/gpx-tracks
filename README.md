@@ -2,6 +2,7 @@
 repository of my exploration
 
 Folder structure:
+```
 GPX Tracks
 │
 ├── Mazury 2023
@@ -29,6 +30,7 @@ GPX Tracks
         ├── Archived_Track1.gpx
         ├── Archived_Track2.gpx
         └── ...
+```
 
 Explanation of the structure:
 
