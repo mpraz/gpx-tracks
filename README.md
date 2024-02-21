@@ -81,3 +81,9 @@ Replace City with the name of the city where you're walking.
 Use a sequential number (1, 2, etc.) to distinguish different walks or routes within the same city.
 You can also include descriptors like Morning, Evening, Park, River, or any other relevant identifiers to give an idea of the location or characteristics of the walk.
 The idea is to make the file names informative and easily distinguishable, so you can quickly identify the walking routes within the same city.
+
+
+
+### Sample URL for dynamic tracks
+-- Trasa Wybrzeze
+https://raw.githubusercontent.com/mpraz/gpx-tracks/14e9ead714be14fcd25ccff4481105834d58d88a/Baltyk%202023/Single%20Tracks/wybrzeze.geojson
