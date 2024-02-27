@@ -88,5 +88,8 @@ The idea is to make the file names informative and easily distinguishable, so yo
 -- Trasa Wybrzeze
 https://raw.githubusercontent.com/mpraz/gpx-tracks/14e9ead714be14fcd25ccff4481105834d58d88a/Baltyk%202023/Single%20Tracks/wybrzeze.geojson
 
+-- Trasa Wybrzeze Szparag
+https://raw.githubusercontent.com/mpraz/gpx-tracks/adabe358da0884659f4be2213b6693cdfff35434/Baltyk%202023/Joined%20Tracks/Bike_Swinoujscie_to_Krynica_Szparag.geojson
+
 -- Trasa Rolnicy
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/Car_Swarzedz_to_Wroclaw_Rolnicy.geojson
