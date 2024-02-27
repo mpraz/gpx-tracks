@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<gpx
+ version="1.1"
+ creator="GPS Tracks - http://www.dmsoftwaresolutions.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Tuesday Afternoon Track.gpx</name>
+    <link href="http://www.dmsoftwaresolutions.com">
+      <text>GPS Tracks</text>
+    </link>
+    <time>2023-10-03T14:44:15Z</time>
+  </metadata>
+  <wpt lat="45.41020167956881" lon="11.87838638626426">
+    <ele>14.40496253967285</ele>
+    <time>2023-10-03T14:44:14Z</time>
+    <name>Start</name>
+  </wpt>
+  <wpt lat="45.41029264263177" lon="11.87841683012716">
+    <ele>16.8371830964461</ele>
+    <time>2023-10-03T14:54:15Z</time>
+    <name>End</name>
+  </wpt>
+  <trk>
+    <name>Tuesday Afternoon Track</name>
+    <trkseg>
+      <trkpt lat="45.41020167956881" lon="11.87838638626426">
+      <ele>14.40496253967285</ele>
+      <time>2023-10-03T14:44:14Z</time>
+      </trkpt>
+      <trkpt lat="45.41020233405089" lon="11.87838847391087">
+      <ele>13.54050776284164</ele>
+      <time>2023-10-03T14:44:16Z</time>
+      </trkpt>
+      <trkpt lat="45.41034533215408" lon="11.87846098209899">
+      <ele>15.69604533724487</ele>
+      <time>2023-10-03T14:45:05Z</time>
+      </trkpt>
+      <trkpt lat="45.4105060751164" lon="11.87841041536208">
+      <ele>16.38218338787556</ele>
+      <time>2023-10-03T14:45:22Z</time>
+      </trkpt>
+      <trkpt lat="45.41043816979477" lon="11.8785032022634">
+      <ele>15.88606258481741</ele>
+      <time>2023-10-03T14:46:04Z</time>
+      </trkpt>
+      <trkpt lat="45.41033639307867" lon="11.87850395714417">
+      <ele>14.1813267339021</ele>
+      <time>2023-10-03T14:46:28Z</time>
+      </trkpt>
+      <trkpt lat="45.41029264263177" lon="11.87841683012716">
+      <ele>16.8371830964461</ele>
+      <time>2023-10-03T14:54:15Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
