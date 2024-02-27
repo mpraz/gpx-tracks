@@ -52,17 +52,21 @@ Bike Track: Bike_SourceCity_to_DestinationCity.gpx
 ```
 
 Multiple GPX files with same source and destination:
+```
 Car_SourceCity_to_DestinationCity_1.gpx
 Car_SourceCity_to_DestinationCity_2.gpx
 Car_SourceCity_to_DestinationCity_2023-08-08.gpx
 Car_SourceCity_to_DestinationCity_2023-08-09.gpx
+```
 In this example, the numerical identifier (1, 2) or the date (2023-08-08, 2023-08-09)
 
 Walking tracks:
+```
 Walk_SourceCity_to_DestinationCity.gpx
 Walk_SourceCity_to_DestinationCity_2023-08-08.gpx
 Walk_SourceCity_to_DestinationCity_Morning.gpx
 Walk_SourceCity_to_DestinationCity_Evening.gpx
+```
 In this convention:
 
 Replace SourceCity and DestinationCity with the actual names of the cities you walked between.
@@ -70,11 +74,12 @@ You can include a date in YYYY-MM-DD format to indicate when the walk was record
 Optionally, you can add a descriptor like Morning or Evening to indicate the time of day when the walk took place.
 
 When you're walking within a single city and you want to name your GPX files to reflect different walks or routes, you can use a simple yet descriptive naming convention. Here's a suggestion:
-
+```
 City_Walk1.gpx
 City_Walk2.gpx
 City_Morning_Walk.gpx
 City_Park_Route.gpx
+```
 In this naming convention:
 
 Replace City with the name of the city where you're walking.
@@ -84,20 +89,20 @@ The idea is to make the file names informative and easily distinguishable, so yo
 
 
 
-### Sample URL for dynamic tracks
-```
--- Trasa Wybrzeze
-```
+## Sample URL for dynamic tracks
+
+### Trasa Wybrzeze
 
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/14e9ead714be14fcd25ccff4481105834d58d88a/Baltyk%202023/Single%20Tracks/wybrzeze.geojson
 ```
--- Trasa Wybrzeze Szparag
+
+### Trasa Wybrzeze Szparag
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/adabe358da0884659f4be2213b6693cdfff35434/Baltyk%202023/Joined%20Tracks/Bike_Swinoujscie_to_Krynica_Szparag.geojson
 ```
 
--- Trasa Rolnicy
+### Trasa Rolnicy
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/Car_Swarzedz_to_Wroclaw_Rolnicy.geojson
 ```
