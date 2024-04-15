@@ -111,3 +111,8 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/Car_Swarzedz_to_Wro
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/4ed03b0b2d4a8613cecdb55c858e35153cf57f48/Tyrol%202022/Single%20Tracks/Car_Garda_Lake.geojson
 ```
+
+### Rower do Stobnicy
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Stobnica.geojson
+```
