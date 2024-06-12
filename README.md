@@ -91,7 +91,7 @@ The idea is to make the file names informative and easily distinguishable, so yo
 
 ## Sample URL for dynamic tracks
 
-### Trasa Wybrzeze
+### Trasa Wybrzeze Autem
 
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/14e9ead714be14fcd25ccff4481105834d58d88a/Baltyk%202023/Single%20Tracks/wybrzeze.geojson
