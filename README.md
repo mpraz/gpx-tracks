@@ -101,6 +101,8 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/14e9ead714be14fcd25ccff448110
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/adabe358da0884659f4be2213b6693cdfff35434/Baltyk%202023/Joined%20Tracks/Bike_Swinoujscie_to_Krynica_Szparag.geojson
 ```
+#### R10 filmik
+```youtube.com/watch?v=ukh9RFY0jPU```
 
 ### Trasa Rolnicy
 ```
