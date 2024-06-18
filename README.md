@@ -127,3 +127,8 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20Tracks/Flight_Katowice_to_Catania.geojson
 ```
+
+### Katowice - dojazd do lotniska
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20Tracks/Bus_Katowice_to_KatowiceAiport.geojson
+```
