@@ -118,3 +118,12 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/4ed03b0b2d4a8613cecdb55c858e3
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Stobnica.geojson
 ```
+
+### Katania do Katowic 2024
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20Tracks/Flight_Catania_to_Katowice.geojson
+```
+### Katowice do Katania 2024
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20Tracks/Flight_Katowice_to_Catania.geojson
+```
