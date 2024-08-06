@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.090786,
+          37.503153
+        ]
+      },
+      "properties": {
+        "elevation": 9.676690101623535,
+        "time": "2024-05-21T05:07:01+00:00"
+      }
+    }
+  ]
+}
