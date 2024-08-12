@@ -132,3 +132,8 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20Tracks/Bus_Katowice_to_KatowiceAiport.geojson
 ```
+
+### Gołuchów - Szczytniki 
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/waiting_room_geojson/Car_Goluchow_to_Szczytniki.geojson
+```
