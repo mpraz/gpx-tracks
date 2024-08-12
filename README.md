@@ -142,4 +142,10 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/waiting_room_geojson/Car
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Malta_traditional.geojson
 ```
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Malta_Cytadela.geojson
+```
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Swarzedz_Malta.geojson
+```
 
