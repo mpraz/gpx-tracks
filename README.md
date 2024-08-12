@@ -137,3 +137,9 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Sycylia%202024/Single%20
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/waiting_room_geojson/Car_Goluchow_to_Szczytniki.geojson
 ```
+
+### Rowerek - Poznań - Malta - jezioro
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Malta_traditional.geojson
+```
+
