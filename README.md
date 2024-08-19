@@ -149,3 +149,7 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Mal
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Swarzedz_Malta.geojson
 ```
 
+### Poznań do Konin
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Car_Poznan_to_Konin.geojson
+```
