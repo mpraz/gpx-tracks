@@ -87,6 +87,16 @@ Use a sequential number (1, 2, etc.) to distinguish different walks or routes wi
 You can also include descriptors like Morning, Evening, Park, River, or any other relevant identifiers to give an idea of the location or characteristics of the walk.
 The idea is to make the file names informative and easily distinguishable, so you can quickly identify the walking routes within the same city.
 
+## Tools
+
+Gimme Geodata to darmowe i niezwykle proste w użyciu narzędzie do szybkiego pobierania map granic z danych OpenStreetMap.
+```
+https://hanshack.com/geotools/gimmegeodata/
+```
+
+```
+https://geojson.io/
+```
 
 
 ## Sample URL for dynamic tracks
