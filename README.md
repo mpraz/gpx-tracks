@@ -163,3 +163,11 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Bike_Swa
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Single%20Tracks/Car_Poznan_to_Konin.geojson
 ```
+
+### Krynica Morska
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Car_Swarzedz_to_Malbork.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Car_Malbork_to_Krynica.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Car_Krynica_to_Piaski.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Walk_Krynica_Morska_to_Granica.geojson
+```
