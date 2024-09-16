@@ -175,3 +175,9 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Car_Krynica_to_Piaski.geojson
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Walk_Krynica_Morska_to_Granica.geojson
 ```
+
+Rzeki
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/69ea2fee4b325d76e90e5a1daa40a0a6d58c79fa/misc/rivers24.geojson
+```
