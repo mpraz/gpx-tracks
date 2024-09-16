@@ -98,6 +98,10 @@ https://hanshack.com/geotools/gimmegeodata/
 https://geojson.io/
 ```
 
+Wyciaganie danych z OSM
+```
+https://overpass-turbo.eu/
+```
 
 ## Sample URL for dynamic tracks
 
