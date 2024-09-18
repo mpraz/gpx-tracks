@@ -179,5 +179,5 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/
 Rzeki
 
 ```
-https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/rivers_24.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/rivers_24_v2.geojson
 ```
