@@ -103,9 +103,12 @@ Wyciaganie danych z OSM
 https://overpass-turbo.eu/
 ```
 
+Przykłady kwerend dla OverPassTurbo:
+Rzeki
 ["waterway"="stream"]
 ["waterway"="river"]
-
+Metro:
+route=subway
 ## Sample URL for dynamic tracks
 
 ### Trasa Wybrzeze Autem
