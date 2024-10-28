@@ -182,6 +182,11 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/Single%20tracks/Walk_Krynica_Morska_to_Granica.geojson
 ```
 
+### Poznań - dzielnice
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Swarzedz/poznan_dzielnice.geojson
+```
+
 Rzeki
 
 
