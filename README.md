@@ -1,5 +1,9 @@
 # gpx-tracks
-repository of my exploration
+This repository is a collection of GPS Exchange Format (GPX) files, which are used to store and share GPS data.
+
+- Waypoints
+- Tracks
+- Routes
 
 ## Folder structure:
 
