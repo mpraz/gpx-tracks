@@ -187,6 +187,11 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Krynica%20Morska%202024/
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Swarzedz/poznan_dzielnice.geojson
 ```
 
+### Swarzedz - Bogucin
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Tracks/Car_Swarzedz_Bogucin.geojson
+```
+
 Rzeki
 
 
