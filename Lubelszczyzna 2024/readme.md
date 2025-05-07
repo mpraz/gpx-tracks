@@ -27,3 +27,9 @@ Spacer po Zamoścu
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Lubelszczyzna%202024/Single%20Tracks/Walk_City_Zamosc.geojson
 ```
+
+Trasa Zamosc do Wroclawia
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Lubelszczyzna%202024/Single%20Tracks/Car_Rzeszow_to_Wroclaw.geojson
+```
