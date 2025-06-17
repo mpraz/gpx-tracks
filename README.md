@@ -241,3 +241,9 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Drezno%202025
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Drezno%202025/Car_Swarzedz_to_Drezno.geojson
 ```
+
+### Praga
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Praga_2025/Car_Wroclaw_to_Praga.geojson
+```
