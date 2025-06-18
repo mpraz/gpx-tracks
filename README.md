@@ -242,6 +242,12 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Drezno%202025
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Drezno%202025/Car_Swarzedz_to_Drezno.geojson
 ```
 
+### Sopot
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Sopot_2025/Car_Swarzedz_to_Gdynia.geojson
+```
+
 ### Praga
 
 ```
