@@ -251,3 +251,11 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Praga_2025/Ca
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Praga_2025/Car_Praga_to_SzklarskaPoreba.geojson
 ```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Praga_2025/Car_SzklarskaPoreba_to_Wroclaw.geojson
+```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Praga_2025/Car_SzklarskaPoreba.geojson
+```
