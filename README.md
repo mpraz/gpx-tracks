@@ -313,6 +313,20 @@ https://www.labgis.pl/hipso/arkusz_174.jpg
 https://polska.e-mapa.net/
 
 
+https://sdi.gdos.gov.pl/wms?service=WMS&Request=GetCapabilities
+GDOS:ObszaryChronionegoKrajobrazu
+GDOS:ObszarySpecjalnejOchrony
+GDOS:ParkiKrajobrazowe
+GDOS:ParkiNarodowe
+GDOS:PomnikiPrzyrody
+GDOS:Rezerwaty
+GDOS:SpecjalneObszaryOchrony
+GDOS:StanowiskaDokumentacyjne
+GDOS:UzytkiEkologiczne
+GDOS:ZespolyPrzyrodniczoKrajobrazowe
+
+https://bitbucket.org/okulewicz/leaflet/wiki/URLs
+
 Zalety Web Mercator
 
 Web Mercator jest stosowany przez większość serwisów mapowych dostępnych on-line (Google Maps, OpenStreetMap). Jest to standard.
