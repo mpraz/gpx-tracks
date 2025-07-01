@@ -280,3 +280,58 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski_best.geojson
 ```
+
+
+## Mapy bazowe
+
+EPSG:3857:5
+EPSG:2180:1
+
+W MapLibre GL nie da się mieszać różnych układów współrzędnych (CRS) na jednej mapie — cała mapa musi działać w jednym CRS, najczęściej EPSG:3857. Wszystkie warstwy (vectorowe, rasterowe, WMS itd.) muszą być wtedy zgodne z tym samym układem.
+
+Geoportalowe WMTS-y nie zawsze wspierają EPSG:3857
+
+<TileMatrixSet>
+<ows:Identifier>EPSG:2180</ows:Identifier>
+Czyli ten serwis działa wyłącznie w układzie EPSG:2180. Nie da się wymusić EPSG:3857 — ten serwis nie udostępnia tej mapy w Web Mercatorze.
+
+MapLibre (bez dodatkowych wtyczek) nie obsłuży WMTS w EPSG:2180, ponieważ:
+
+domyślnie działa tylko w EPSG:3857,
+
+nie ma natywnej obsługi WMTS (trzeba użyć raster layer z raster-dem albo raster źródłem),
+
+i nawet jak użyjesz pluginu maplibre-gl-proj, to musisz mieć styl przygotowany pod EPSG:2180 (własny TileMatrixSet itd.).
+
+
+https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief?service=WMTS&request=getCapabilities  --> EPSG:2180
+https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/HypsometryAndShadedRelief?service=WMTS&request=getCapabilities --> EPSG:2180
+https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/Hypsometry?service=WMTS&request=getCapabilities --> EPSG:2180
+
+https://www.labgis.pl/hipso/#9/52.4393/17.9269
+https://www.labgis.pl/hipso/arkusz_174.jpg
+https://polska.e-mapa.net/
+
+
+Zalety Web Mercator
+
+Web Mercator jest stosowany przez większość serwisów mapowych dostępnych on-line (Google Maps, OpenStreetMap). Jest to standard.
+Nowoczesne narzędzia i biblioteki programistyczne do budowy map on-line są zoptymalizowane pod ten układ i wtedy mapa działa najszybciej
+Jest to układ odpowiedni dla całego świata
+Wady Web Mercator
+
+Jest to układ odpowiedni dla całego świata przez co jego dokładność nie jest geodezyjna. Oznacza to, że niedokładności przy pomiarach są znaczące
+Nie wszystkie krajowe usługi danych przestrzennych (np. WMS z Geoportal.gov.pl) są publikowane w tym układzie, przez co konieczna jest reprojekcja co zajmuje czas i może się odbić na jakości danych WMS
+Nie jest to optymalny układ do wykorzystania na wydrukach map, a to z kilku powodów.
+Dystorsja: EPSG:3857 to układ odniesienia Mercatora (Web Mercator), który znacząco zniekształca obszary, szczególnie na dużych szerokościach geograficznych (na północy i południu). Na mapie w układzie Mercatora, obszary bliskie biegunom wydają się znacznie większe niż są w rzeczywistości, co może prowadzić do błędnych interpretacji danych.
+Skala: Z powodu tego zniekształcenia, skala na mapie EPSG:3857 nie jest stała, co może być problematyczne w przypadku wydruków map. Dla mapy internetowej, gdzie użytkownik może przybliżać i oddalać, skala jest mniej istotna, ale na wydruku mapy, skala powinna być stała.
+Jednostki: EPSG:3857 używa metrów jako jednostki, ale ze względu na zniekształcenia, te metry nie są „rzeczywistymi” metrami na powierzchni Ziemi, zwłaszcza w pobliżu biegunów.
+Jakie są alternatywy?
+
+Jeżeli dane wyświetlane w Systemie mają dotyczyć Polski, to możliwe jest zainstalowanie aplikacji w układzie PUWG 1992 (EPSG:2180), ale dla optymalizacji wyświetlania danych w przeglądarce internetowej, mapa będzie wyświetlana w Web Mercator (EPSG:3857).
+
+https://mapa.wirtualneszlaki.pl/polska-mapa-fizyczna#google_vignette
+
+
+### hispometria
+https://tiles.wirtualneszlaki.pl/DTM-Poland-20m-qgis-z13/8/144/85.png
