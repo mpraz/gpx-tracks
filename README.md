@@ -364,3 +364,8 @@ https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/
 ### https://bitbucket.org/okulewicz/leaflet/src/master/
 
 
+inne
+
+https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/index.html
+https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/map.js
+https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/customLayers.js
