@@ -276,3 +276,7 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski.geojson
 ```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski_best.geojson
+```
