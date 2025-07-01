@@ -335,3 +335,13 @@ https://mapa.wirtualneszlaki.pl/polska-mapa-fizyczna#google_vignette
 
 ### hispometria
 https://tiles.wirtualneszlaki.pl/DTM-Poland-20m-qgis-z13/8/144/85.png
+
+"tiles": [tiles.wirtualneszlaki.pl/DTM-Poland-20m-qgis-z13/bw-mapnik/{z}/{x}/{y}.png"],
+
+https://gcore.pl/mapy-podkladowe/
+
+https://geoforum.pl/note.php?id=59
+https://isok.gov.pl/inspire.html
+
+
+https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/
