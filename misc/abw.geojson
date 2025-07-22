@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stacja wstępnego radionamierzania, teren wojskowy, Dziwnów"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.7528559, 54.0153938]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stacja wstępnego radionamierzania, teren wojskowy, Siedliska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.874732, 49.774619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stacja wstępnego radionamierzania ABW - Cedry Wielkie, Miłocin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.79507081761321, 54.26909569820767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centralny Ośrodek Szkolenia - Emów ul. Nadwiślańczyków, Wiązowna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.285302427618927, 52.15270195469473]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mądralin ul. Mlądzka 1, 05-400 Otwock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.28947899444239, 52.14598911736777]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ośrodek Konferencyjny Magdalenka ul. Graniczna 5, Lesznowola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.898994595116626, 52.09921111660481]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrala ABW w Warzszawie - Warszawa ul. Rakowiecka 2A, Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.017350197937443, 52.21040312571474]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warszawa ul. Miłobędzka 40, 02-634 Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.99526335818709, 52.199697646191055]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biuro Badań Kryminalistycznych ABW - Warszawa ul. 1-go Sierpnia 30A, Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.97285472093156, 52.1938149149079]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "JW 1944 Warszawa ul. Podchorążych 32, Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.045362264476477, 52.20879225361544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warszawa ul. Samochodowa 3/5/1, Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.007139537210342, 52.18578669462012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Warszawa ul. Kielecka 32, Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.005475, 52.205198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biuro Badań Spedycji i Logistyki Warszawa ul. Wodzirejów 10, Warszawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.010738216905427, 52.151640072501]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Były Stadion Gwardii Warszawa ul. Racławicka 132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.991465573812384, 52.19770370312356]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostrowin 18, Szyldak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.11413368764313, 53.65550119655349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delegatura ABW w Poznaniu - Poznań, ul. Rolna 53"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.913929908300073, 52.37764338822211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poznań, ul. Żytnia 19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.94350980385853, 52.43585084971491]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wydział Zamiejscowy w Zielonej Górze Delegatury ABW w Poznaniu - Zielona Góra, ul. Chopina 16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.50667926104436, 51.944202220462515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zielona Góra, ul. Jodłowa 20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.526503872668064, 51.96343255723913]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dawna Samodzielna Sekcja Zamiejscowa w Gorzowie Wielkopolskim, Gorzów Wielkopolski, ul. Kazimierza Wielkiego 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.232263137428703, 52.752385558478935]
+      }
+    }
+  ]
+}

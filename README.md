@@ -273,6 +273,7 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car
 ```
 
 ### Siatka polski
+
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski.geojson
 ```
@@ -280,7 +281,6 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski
 ```
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/siatka_polski_best.geojson
 ```
-
 
 ## Mapy bazowe
 
@@ -303,15 +303,13 @@ nie ma natywnej obsługi WMTS (trzeba użyć raster layer z raster-dem albo rast
 
 i nawet jak użyjesz pluginu maplibre-gl-proj, to musisz mieć styl przygotowany pod EPSG:2180 (własny TileMatrixSet itd.).
 
-
-https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief?service=WMTS&request=getCapabilities  --> EPSG:2180
+https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief?service=WMTS&request=getCapabilities --> EPSG:2180
 https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/HypsometryAndShadedRelief?service=WMTS&request=getCapabilities --> EPSG:2180
 https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/Hypsometry?service=WMTS&request=getCapabilities --> EPSG:2180
 
 https://www.labgis.pl/hipso/#9/52.4393/17.9269
 https://www.labgis.pl/hipso/arkusz_174.jpg
 https://polska.e-mapa.net/
-
 
 https://sdi.gdos.gov.pl/wms?service=WMS&Request=GetCapabilities
 GDOS:ObszaryChronionegoKrajobrazu
@@ -346,8 +344,8 @@ Jeżeli dane wyświetlane w Systemie mają dotyczyć Polski, to możliwe jest za
 
 https://mapa.wirtualneszlaki.pl/polska-mapa-fizyczna#google_vignette
 
-
 ### hispometria
+
 https://tiles.wirtualneszlaki.pl/DTM-Poland-20m-qgis-z13/8/144/85.png
 
 "tiles": [tiles.wirtualneszlaki.pl/DTM-Poland-20m-qgis-z13/bw-mapnik/{z}/{x}/{y}.png"],
@@ -357,15 +355,24 @@ https://gcore.pl/mapy-podkladowe/
 https://geoforum.pl/note.php?id=59
 https://isok.gov.pl/inspire.html
 
-
 https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/
 
-
 ### https://bitbucket.org/okulewicz/leaflet/src/master/
-
 
 inne
 
 https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/index.html
 https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/map.js
 https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/customLayers.js
+
+### geoportal hypso
+
+"https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief?service=WMTS&request=GetTile&version=1.0.0&layer=ISOK_Cien&style=default&format=image/jpeg&TileMatrixSet=EPSG:2180&TileMatrix=EPSG:2180:{z}&TileRow={y}&TileCol={x}"
+
+### Mapproxy
+
+"mapproxy-util serve-develop -b 192.168.2.179:30279 mapproxy.yaml"
+
+
+
+https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/ShadedRelief?request=getCapabilities&service=WMS
