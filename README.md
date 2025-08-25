@@ -275,23 +275,27 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car
 ### bieszczady
 
 ```
-https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Bieszczady_2025/Car_SwarzedzToCisna.geojson
 ```
 
 ```
-https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Bieszczady_2025/Car_CisnaToSwarzedz.geojson
 ```
 
 ```
-https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Bieszczady_2025/Car_SolinaToCisna.geojson
 ```
 
 ```
-https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Bieszczady_2025/Car_CisnaToWolosate.geojson
 ```
 
 ```
-https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Bieszczady_2025/Car_WetlinaToCisna.geojson
+```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/Bieszczady_2025/Hike_Lopienka.geojson
 ```
 
 ### Siatka polski
@@ -394,7 +398,5 @@ https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/c
 ### Mapproxy
 
 "mapproxy-util serve-develop -b 192.168.2.179:30279 mapproxy.yaml"
-
-
 
 https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/ShadedRelief?request=getCapabilities&service=WMS
