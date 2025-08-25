@@ -272,6 +272,28 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Praga_2025/Ca
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
 ```
 
+### bieszczady
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+```
+
+```
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Lodz_2025/Car_Lodz_to_Wroclaw.geojson
+```
+
 ### Siatka polski
 
 ```
