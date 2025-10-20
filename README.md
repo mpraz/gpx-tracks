@@ -401,5 +401,7 @@ https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/c
 
 https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/ShadedRelief?request=getCapabilities&service=WMS
 
-
 https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/PoznanCombination.geojson
+
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Tracks/Car_Dzierzoniow_to_Wroclaw.geojson
+https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Tracks/Car_Wroclaw_to_Dzierzoniow.geojson
