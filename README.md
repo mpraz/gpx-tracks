@@ -400,3 +400,6 @@ https://pages.mini.pw.edu.pl/~okulewiczm/leaflet/04-warstwy-dynamiczne-leaflet/c
 "mapproxy-util serve-develop -b 192.168.2.179:30279 mapproxy.yaml"
 
 https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/ShadedRelief?request=getCapabilities&service=WMS
+
+
+https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/PoznanCombination.geojson
