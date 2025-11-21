@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Page</title>
+
+    <!-- Ładowanie md-page -->
+    <script
+      type="module"
+      src="https://md-page.github.io/md-page/md-page.js"
+    ></script>
+
+    <!-- Styl opcjonalny -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+      }
+      pre {
+        background: #f4f4f4;
+        padding: 10px;
+        border-radius: 6px;
+        overflow-x: auto;
+      }
+      code {
+        background: #eee;
+        padding: 3px 5px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Tutaj zostanie wczytany markdown -->
+    <md-page src="README.md"></md-page>
+  </body>
+</html>
