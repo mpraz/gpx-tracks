@@ -1,5 +1,37 @@
-<!-- Ładowanie md-page -->
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script>
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Page</title>
 
-# geoportal hypso
-"https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief?service=WMTS&request=GetTile&version=1.0.0&layer=ISOK_Cien&style=default&format=image/jpeg&TileMatrixSet=EPSG:2180&TileMatrix=EPSG:2180:{z}&TileRow={y}&TileCol={x}"
+    <!-- Ładowanie md-page -->
+   <script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
+
+    <!-- Styl opcjonalny -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+      }
+      pre {
+        background: #f4f4f4;
+        padding: 10px;
+        border-radius: 6px;
+        overflow-x: auto;
+      }
+      code {
+        background: #eee;
+        padding: 3px 5px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Tutaj zostanie wczytany markdown -->
+    <md-page src="README.md"></md-page>
+  </body>
+</html>
