@@ -17,14 +17,13 @@
         font-family: "Inter", sans-serif;
       }
       body {
-        background-color: #121212;
+        background: #121212;
         color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
       }
-
       .container {
         background: #1e1e1e;
         padding: 40px;
@@ -35,7 +34,6 @@
         gap: 20px;
         width: 320px;
       }
-
       h1 {
         text-align: center;
         font-weight: 600;
@@ -43,7 +41,6 @@
         margin-bottom: 20px;
         color: #fff;
       }
-
       .link-btn {
         display: flex;
         align-items: center;
@@ -56,31 +53,24 @@
         text-decoration: none;
         color: #fff;
       }
-
       .link-btn:hover {
         background: #3a3a3a;
         transform: translateY(-2px);
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       }
-
       .link-text {
-        display: flex;
-        align-items: center;
-        gap: 10px;
         font-weight: 500;
       }
-
-      .copy-icon {
-        width: 20px;
-        height: 20px;
-        fill: #fff;
+      .icon-container svg {
+        vertical-align: middle;
         transition: transform 0.2s ease;
       }
-
-      .link-btn:hover .copy-icon {
+      .link-btn:hover .icon-container svg {
         transform: scale(1.2);
       }
-
+      .d-none {
+        display: none;
+      }
       .copied {
         position: fixed;
         bottom: 20px;
@@ -95,65 +85,113 @@
         transition: opacity 0.3s ease;
         font-weight: 500;
       }
-
       .copied.show {
         opacity: 1;
+      }
+
+      .js-clipboard-copy-icon {
+        fill: #ccc;
+      }
+      .js-clipboard-check-icon {
+        fill: green;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Trasy</h1>
+      <h1>Moje Linki</h1>
 
-      <div
-        class="link-btn"
-        data-link="https://izotope.pl/data/gpx-tracks/waiting_room_geojson/Walk_Krakow.geojson"
-      >
-        <span class="link-text">
+      <div class="link-btn" data-link="https://izotope.pl/data/gpx-tracks/waiting_room_geojson/Walk_Krakow.geojson">
+        <span class="link-text">Spacer po Krakowie</span>
+        <span class="icon-container">
           <svg
-            class="copy-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            class="js-clipboard-copy-icon"
           >
             <path
-              d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"
-            />
+              d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"
+            ></path>
+            <path
+              d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"
+            ></path>
           </svg>
-          Spacer po Krakowie
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            class="js-clipboard-check-icon d-none"
+          >
+            <path
+              d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"
+            ></path>
+          </svg>
         </span>
-        <span>📋</span>
       </div>
 
-      <div class="link-btn" data-link="https://github.com">
-        <span class="link-text">
+      <div class="link-btn" data-link="https://izotope.pl/data/gpx-tracks/waiting_room_geojson/Car_Hamburg_to_Poznan.geojson>
+        <span class="link-text">z Hamburga do Poznania</span>
+        <span class="icon-container">
           <svg
-            class="copy-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            class="js-clipboard-copy-icon"
           >
             <path
-              d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"
-            />
+              d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"
+            ></path>
+            <path
+              d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"
+            ></path>
           </svg>
-          GitHub
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            class="js-clipboard-check-icon d-none"
+          >
+            <path
+              d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"
+            ></path>
+          </svg>
         </span>
-        <span>📋</span>
       </div>
 
       <div class="link-btn" data-link="https://linkedin.com">
-        <span class="link-text">
+        <span class="link-text">LinkedIn</span>
+        <span class="icon-container">
           <svg
-            class="copy-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            class="js-clipboard-copy-icon"
           >
             <path
-              d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"
-            />
+              d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"
+            ></path>
+            <path
+              d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"
+            ></path>
           </svg>
-          LinkedIn
+          <svg
+            aria-hidden="true"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            class="js-clipboard-check-icon d-none"
+          >
+            <path
+              d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"
+            ></path>
+          </svg>
         </span>
-        <span>📋</span>
       </div>
     </div>
 
@@ -164,12 +202,27 @@
       const copiedMessage = document.getElementById("copiedMessage");
 
       buttons.forEach((btn) => {
-        btn.addEventListener("click", () => {
-          const link = btn.getAttribute("data-link");
-          navigator.clipboard.writeText(link).then(() => {
+        btn.addEventListener("click", async () => {
+          const link = btn.dataset.link;
+          try {
+            await navigator.clipboard.writeText(link);
+
+            const copyIcon = btn.querySelector(".js-clipboard-copy-icon");
+            const checkIcon = btn.querySelector(".js-clipboard-check-icon");
+
+            copyIcon.classList.add("d-none");
+            checkIcon.classList.remove("d-none");
+
+            setTimeout(() => {
+              checkIcon.classList.add("d-none");
+              copyIcon.classList.remove("d-none");
+            }, 1500);
+
             copiedMessage.classList.add("show");
             setTimeout(() => copiedMessage.classList.remove("show"), 1500);
-          });
+          } catch (e) {
+            alert("Nie udało się skopiować linku!");
+          }
         });
       });
     </script>

@@ -405,3 +405,5 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/main/misc/PoznanCombination.g
 
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Tracks/Car_Dzierzoniow_to_Wroclaw.geojson
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Tracks/Car_Wroclaw_to_Dzierzoniow.geojson
+
+https://izotope.pl/data/gpx-tracks/waiting_room_geojson/Walk_Krakow.geojson
