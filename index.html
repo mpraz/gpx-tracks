@@ -1,42 +1,177 @@
 <!DOCTYPE html>
+
 <html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Markdown Page</title>
-
-    <!-- Ładowanie md-page -->
-   <script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
-
-    <!-- Styl opcjonalny -->
+    <title>Nowoczesne Linki Kopiuj</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
       body {
-        font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 40px auto;
-        padding: 0 20px;
-        line-height: 1.6;
+        background-color: #121212;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
-      pre {
-        background: #f4f4f4;
-        padding: 10px;
-        border-radius: 6px;
-        overflow-x: auto;
+
+      .container {
+        background: #1e1e1e;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 320px;
       }
-      code {
-        background: #eee;
-        padding: 3px 5px;
-        border-radius: 4px;
+
+      h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .link-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #2a2a2a;
+        padding: 12px 16px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .link-btn:hover {
+        background: #3a3a3a;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .link-text {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 500;
+      }
+
+      .copy-icon {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+        transition: transform 0.2s ease;
+      }
+
+      .link-btn:hover .copy-icon {
+        transform: scale(1.2);
+      }
+
+      .copied {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 12px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        font-weight: 500;
+      }
+
+      .copied.show {
+        opacity: 1;
       }
     </style>
-
-    ### geoportal hypso
-
-"https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief?service=WMTS&request=GetTile&version=1.0.0&layer=ISOK_Cien&style=default&format=image/jpeg&TileMatrixSet=EPSG:2180&TileMatrix=EPSG:2180:{z}&TileRow={y}&TileCol={x}"
-
   </head>
   <body>
-    <!-- Tutaj zostanie wczytany markdown -->
-    <md-page src="README.md"></md-page>
+    <div class="container">
+      <h1>Trasy</h1>
+
+      <div
+        class="link-btn"
+        data-link="https://izotope.pl/data/gpx-tracks/waiting_room_geojson/Walk_Krakow.geojson"
+      >
+        <span class="link-text">
+          <svg
+            class="copy-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"
+            />
+          </svg>
+          Spacer po Krakowie
+        </span>
+        <span>📋</span>
+      </div>
+
+      <div class="link-btn" data-link="https://github.com">
+        <span class="link-text">
+          <svg
+            class="copy-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"
+            />
+          </svg>
+          GitHub
+        </span>
+        <span>📋</span>
+      </div>
+
+      <div class="link-btn" data-link="https://linkedin.com">
+        <span class="link-text">
+          <svg
+            class="copy-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 18H8V7h11v16z"
+            />
+          </svg>
+          LinkedIn
+        </span>
+        <span>📋</span>
+      </div>
+    </div>
+
+    <div class="copied" id="copiedMessage">Skopiowano do schowka!</div>
+
+    <script>
+      const buttons = document.querySelectorAll(".link-btn");
+      const copiedMessage = document.getElementById("copiedMessage");
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const link = btn.getAttribute("data-link");
+          navigator.clipboard.writeText(link).then(() => {
+            copiedMessage.classList.add("show");
+            setTimeout(() => copiedMessage.classList.remove("show"), 1500);
+          });
+        });
+      });
+    </script>
   </body>
 </html>
