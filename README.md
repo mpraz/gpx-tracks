@@ -10,32 +10,33 @@ This repository is a collection of GPS Exchange Format (GPX) files, which are us
 
 ```
 GPX Tracks
+Tracks/
+├── Trips/                  # Wyjazdy z konkretnym rokiem
+│   ├── 2019/
+│   ├── 2022/
+│   ├── 2023/
+│   ├── 2024/
+│   └── 2025/
 │
-├── Mazury 2023
-│   ├── Single Tracks
-│   │   ├── Track1.gpx
-│   │   ├── Track2.gpx
-│   │   └── ...
-│   ├── Joined Tracks
-│   │   ├── Joined_Mazury_2023.gpx
-│   │   └── ...
-│   └── Archive
-│       ├── Archived_Track1.gpx
-│       ├── Archived_Track2.gpx
-│       └── ...
+├── Local/                  # Lokalne trasy bez znaczenia roku
+│   ├── Poznan/
+│   ├── Swarzędz/
+│   ├── Wroclaw/
+│   └── Misc/               # lokalne pliki, które są trudne do sklasyfikowania
+│       ├── gpx/
+│       └── geojson/
 │
-└── Majorka 2023
-    ├── Single Tracks
-    │   ├── Track1.gpx
-    │   ├── Track2.gpx
-    │   └── ...
-    ├── Joined Tracks
-    │   ├── Joined_Majorka_2023.gpx
-    │   └── ...
-    └── Archive
-        ├── Archived_Track1.gpx
-        ├── Archived_Track2.gpx
-        └── ...
+├── Helpers/                # Pliki pomocnicze / podkłady / siatki
+│   ├── Poland_Grid/        # np. siatka Polski
+│   ├── Admin_Boundaries/   # np. województwa, powiaty
+│   ├── Points_of_Interest/ # stałe punkty, np. parkingi, atrakcje
+│   └── Misc/
+│       ├── gpx/
+│       └── geojson/
+│
+└── Pending/               # oczekujące na przypisanie/analizę, pliki tymczasowe, nieprzypisane
+    ├── gpx/
+    └── geojson/
 ```
 
 ## Explanation of the structure:
