@@ -408,3 +408,36 @@ https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Trac
 https://raw.githubusercontent.com/mpraz/gpx-tracks/refs/heads/main/Single%20Tracks/Car_Wroclaw_to_Dzierzoniow.geojson
 
 https://izotope.pl/data/gpx-tracks/waiting_room_geojson/Walk_Krakow.geojson
+
+# Dokumentacja skryptu `generate_gpx_inserts.sh`
+
+Skrypt automatycznie wyszukuje wszystkie pliki **`.gpx`** i **`.geojson`** w katalogu `gpx-tracks` oraz generuje dla nich instrukcje SQL `INSERT` do tabeli `tbl_gpx_list`.
+
+## Uruchomienie
+
+```bash
+/usr/local/bin/generate_gpx_inserts.sh
+```
+
+Wynik zostanie zapisany do:
+
+```text
+/tmp/gpx_inserts.sql
+```
+
+## Działanie
+
+Dla każdego znalezionego pliku skrypt zapisuje:
+
+- `file_path` — pełny URL do pliku,
+- `Label` — nazwę pliku bez rozszerzenia,
+- `created_at` — datę modyfikacji pliku.
+
+Przykład:
+
+```sql
+INSERT INTO tbl_gpx_list (file_path, Label, created_at)
+VALUES ('https://izotope.pl/gpx/gpx-tracks/Poznan/Malta.gpx', 'Malta', '2026-08-18 18:32:11');
+```
+
+Skrypt **nie wykonuje zapytań na bazie MySQL** — generuje wyłącznie plik SQL, który można następnie zaimportować ręcznie.
